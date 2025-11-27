@@ -17,7 +17,7 @@ const Stats = () => {
     });
 
     return (
-        <section className="py-24 bg-emerald-700 dark:bg-emerald-900 border-y border-white/10 transition-colors duration-500 relative overflow-hidden">
+        <section className="py-20 bg-emerald-700 dark:bg-emerald-900 border-y border-white/10 transition-colors duration-500 relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10 pointer-events-none">
                 <div className="absolute -top-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl" />
