@@ -22,7 +22,7 @@ const Marquee = () => {
     ];
 
     return (
-        <div className="relative w-full overflow-hidden bg-blue-600 dark:bg-blue-900 py-4 border-y border-white/10">
+        <div className="relative w-full overflow-hidden bg-emerald-700 dark:bg-emerald-900 py-4 border-y border-white/10">
             <div className="flex whitespace-nowrap">
                 <motion.div
                     className="flex gap-16 items-center"

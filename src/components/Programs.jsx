@@ -9,7 +9,7 @@ const Programs = () => {
 
                 {/* Section Header */}
                 <div className="text-center mb-20">
-                    <h2 className="text-blue-600 dark:text-blue-400 font-bold tracking-widest uppercase mb-4 text-sm">Our Offerings</h2>
+                    <h2 className="text-emerald-600 dark:text-emerald-400 font-bold tracking-widest uppercase mb-4 text-sm">Our Offerings</h2>
                     <h3 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white">
                         Holistic Development Ecosystem
                     </h3>
@@ -31,7 +31,7 @@ const Programs = () => {
                         <ul className="space-y-4">
                             {['Expert Faculty', 'Regular Mock Tests', 'Doubt Solving Sessions'].map((item, i) => (
                                 <li key={i} className="flex items-center text-gray-700 dark:text-gray-200">
-                                    <span className="w-2 h-2 bg-blue-500 rounded-full mr-3" />
+                                    <span className="w-2 h-2 bg-emerald-500 rounded-full mr-3" />
                                     {item}
                                 </li>
                             ))}
@@ -97,7 +97,7 @@ const Programs = () => {
                         <ul className="space-y-4">
                             {['Free Accommodation', '24/7 Library Access', 'Self-Managed Mess'].map((item, i) => (
                                 <li key={i} className="flex items-center text-gray-700 dark:text-gray-200">
-                                    <span className="w-2 h-2 bg-purple-500 rounded-full mr-3" />
+                                    <span className="w-2 h-2 bg-teal-500 rounded-full mr-3" />
                                     {item}
                                 </li>
                             ))}

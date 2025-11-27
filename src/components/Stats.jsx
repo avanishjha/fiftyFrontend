@@ -17,7 +17,7 @@ const Stats = () => {
     });
 
     return (
-        <section className="py-24 bg-blue-600 dark:bg-blue-900 border-y border-white/10 transition-colors duration-500 relative overflow-hidden">
+        <section className="py-24 bg-emerald-700 dark:bg-emerald-900 border-y border-white/10 transition-colors duration-500 relative overflow-hidden">
             {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10 pointer-events-none">
                 <div className="absolute -top-24 -left-24 w-96 h-96 bg-white rounded-full blur-3xl" />
@@ -40,9 +40,9 @@ const Stats = () => {
                                 ) : (
                                     0
                                 )}
-                                <span className="text-blue-200">{stat.suffix}</span>
+                                <span className="text-emerald-200">{stat.suffix}</span>
                             </div>
-                            <p className="text-blue-100 dark:text-blue-200 uppercase tracking-widest text-base font-medium border-t border-blue-400/30 pt-4 inline-block px-4">
+                            <p className="text-emerald-100 dark:text-emerald-200 uppercase tracking-widest text-base font-medium border-t border-emerald-400/30 pt-4 inline-block px-4">
                                 {stat.label}
                             </p>
                         </motion.div>

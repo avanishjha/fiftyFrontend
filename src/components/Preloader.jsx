@@ -48,7 +48,7 @@ const Preloader = ({ onComplete }) => {
                         className="mb-8 relative z-10"
                     >
                         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-gray-900 dark:text-white tracking-tighter font-sans mb-2">
-                            Fifty<span className="text-blue-600 dark:text-blue-400">Villagers</span>
+                            Fifty<span className="text-emerald-600 dark:text-emerald-400">Villagers</span>
                         </h1>
                     </motion.div>
 
@@ -76,7 +76,7 @@ const Preloader = ({ onComplete }) => {
                         </div>
                         <div className="h-1 w-full bg-gray-100 dark:bg-gray-800 rounded-full overflow-hidden">
                             <motion.div
-                                className="h-full bg-blue-600 dark:bg-blue-500"
+                                className="h-full bg-emerald-600 dark:bg-emerald-500"
                                 style={{ width: `${progress}%` }}
                             />
                         </div>

@@ -21,11 +21,11 @@ const About = () => {
                                 alt="Students studying"
                                 className="w-full h-full object-cover"
                             />
-                            <div className="absolute inset-0 bg-blue-600/20 mix-blend-multiply" />
+                            <div className="absolute inset-0 bg-emerald-600/20 mix-blend-multiply" />
                         </div>
                         {/* Decorative Element */}
                         <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-yellow-400 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-pulse" />
-                        <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-400 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-pulse" />
+                        <div className="absolute -top-10 -left-10 w-40 h-40 bg-teal-400 rounded-full mix-blend-multiply filter blur-3xl opacity-50 animate-pulse" />
                     </motion.div>
 
                     {/* Text Side */}
@@ -36,10 +36,10 @@ const About = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         className="w-full lg:w-1/2"
                     >
-                        <h2 className="text-blue-600 dark:text-blue-400 font-bold tracking-widest uppercase mb-4 text-sm">About Us</h2>
+                        <h2 className="text-emerald-600 dark:text-emerald-400 font-bold tracking-widest uppercase mb-4 text-sm">About Us</h2>
                         <h3 className="text-4xl md:text-5xl font-bold mb-8 text-gray-900 dark:text-white leading-tight">
                             Illuminating Paths for <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">
+                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-teal-600">
                                 Future Doctors
                             </span>
                         </h3>
@@ -61,7 +61,7 @@ const About = () => {
                                 { label: "Vision", value: "Dr. Kalam" },
                                 { label: "Goal", value: "Service" }
                             ].map((item, index) => (
-                                <div key={index} className="border-l-4 border-blue-500 pl-4">
+                                <div key={index} className="border-l-4 border-emerald-500 pl-4">
                                     <p className="text-sm text-gray-500 dark:text-gray-400 uppercase">{item.label}</p>
                                     <p className="text-xl font-bold text-gray-900 dark:text-white">{item.value}</p>
                                 </div>

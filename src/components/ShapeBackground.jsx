@@ -64,7 +64,7 @@ function ElegantShape({
 export default function ShapeBackground({ children }) {
     return (
         <div className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-white dark:bg-[#030303]">
-            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/[0.05] via-transparent to-rose-500/[0.05] blur-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/[0.05] via-transparent to-teal-500/[0.05] blur-3xl" />
 
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <ElegantShape
@@ -72,7 +72,7 @@ export default function ShapeBackground({ children }) {
                     width={900}
                     height={200}
                     rotate={12}
-                    gradient="from-indigo-500/[0.15]"
+                    gradient="from-emerald-500/[0.15]"
                     className="left-[-10%] md:left-[-5%] top-[15%] md:top-[20%]"
                 />
                 <ElegantShape
@@ -80,7 +80,7 @@ export default function ShapeBackground({ children }) {
                     width={700}
                     height={180}
                     rotate={-15}
-                    gradient="from-rose-500/[0.15]"
+                    gradient="from-teal-500/[0.15]"
                     className="right-[-5%] md:right-[0%] top-[70%] md:top-[75%]"
                 />
                 <ElegantShape
@@ -88,7 +88,7 @@ export default function ShapeBackground({ children }) {
                     width={500}
                     height={120}
                     rotate={-8}
-                    gradient="from-violet-500/[0.15]"
+                    gradient="from-green-500/[0.15]"
                     className="left-[5%] md:left-[10%] bottom-[5%] md:bottom-[10%]"
                 />
                 <ElegantShape
@@ -96,7 +96,7 @@ export default function ShapeBackground({ children }) {
                     width={400}
                     height={100}
                     rotate={20}
-                    gradient="from-amber-500/[0.15]"
+                    gradient="from-lime-500/[0.15]"
                     className="right-[15%] md:right-[20%] top-[10%] md:top-[15%]"
                 />
                 <ElegantShape
@@ -113,7 +113,7 @@ export default function ShapeBackground({ children }) {
                     width={350}
                     height={90}
                     rotate={15}
-                    gradient="from-emerald-500/[0.15]"
+                    gradient="from-emerald-400/[0.15]"
                     className="right-[30%] md:right-[35%] bottom-[15%] md:bottom-[20%]"
                 />
                 <ElegantShape
@@ -121,7 +121,7 @@ export default function ShapeBackground({ children }) {
                     width={250}
                     height={70}
                     rotate={-10}
-                    gradient="from-fuchsia-500/[0.15]"
+                    gradient="from-teal-400/[0.15]"
                     className="left-[40%] md:left-[45%] top-[40%] md:top-[45%]"
                 />
                 <ElegantShape
@@ -129,7 +129,7 @@ export default function ShapeBackground({ children }) {
                     width={450}
                     height={110}
                     rotate={30}
-                    gradient="from-sky-500/[0.15]"
+                    gradient="from-green-400/[0.15]"
                     className="right-[5%] md:right-[10%] top-[40%] md:top-[45%]"
                 />
             </div>

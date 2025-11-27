@@ -59,7 +59,7 @@ const Hero = () => {
                 animate="show"
                 className="max-w-5xl mx-auto text-center text-white"
             >
-                <motion.h2 variants={item} className="text-blue-400 font-bold tracking-[0.3em] uppercase mb-6 text-sm md:text-base font-sans">
+                <motion.h2 variants={item} className="text-emerald-400 font-bold tracking-[0.3em] uppercase mb-6 text-sm md:text-base font-sans">
                     Service Organization
                 </motion.h2>
 
@@ -68,7 +68,7 @@ const Hero = () => {
                     className="text-6xl md:text-8xl lg:text-9xl font-extrabold leading-tight tracking-tighter mb-8 font-sans"
                 >
                     Empowering<br />
-                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-teal-400">
                         Communities
                     </span>
                 </motion.h1>
@@ -80,7 +80,7 @@ const Hero = () => {
                 </motion.p>
 
                 <motion.div variants={item} className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <MagneticButton className="px-10 py-5 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-full transition-all shadow-2xl text-lg font-sans">
+                    <MagneticButton className="px-10 py-5 bg-emerald-700 hover:bg-emerald-800 text-white font-bold rounded-full transition-all shadow-2xl text-lg font-sans">
                         Donate Now
                     </MagneticButton>
                     <MagneticButton className="px-10 py-5 bg-white/10 backdrop-blur-md border border-white/30 text-white hover:bg-white hover:text-black font-bold rounded-full transition-all text-lg font-sans">

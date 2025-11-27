@@ -30,7 +30,7 @@ const MagneticButton = ({ children, className = "", ...props }) => {
             {...props}
         >
             <span className="relative z-10 group-hover:text-white transition-colors duration-300">{children}</span>
-            <span className="absolute inset-0 bg-blue-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
+            <span className="absolute inset-0 bg-emerald-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
         </motion.button>
     );
 };

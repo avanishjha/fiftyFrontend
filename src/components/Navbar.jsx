@@ -31,7 +31,7 @@ const Navbar = () => {
         >
             <div className="container mx-auto px-6 py-6 flex justify-between items-center">
                 <div className="text-2xl font-bold text-gray-900 dark:text-white tracking-tighter font-sans">
-                    Fifty<span className="text-blue-600 dark:text-blue-400">Villagers</span>
+                    Fifty<span className="text-emerald-600 dark:text-emerald-400">Villagers</span>
                 </div>
 
                 {/* Desktop Menu */}
@@ -40,9 +40,10 @@ const Navbar = () => {
                         <a
                             key={item}
                             href={`#${item.toLowerCase()}`}
-                            className="text-gray-800 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors text-sm font-medium uppercase tracking-wide font-body"
+                            className="group relative overflow-hidden px-4 py-2 rounded-full text-gray-800 dark:text-gray-200 transition-colors text-sm font-medium uppercase tracking-wide font-body"
                         >
-                            {item}
+                            <span className="relative z-10 group-hover:text-white transition-colors duration-300">{item}</span>
+                            <span className="absolute inset-0 bg-emerald-600 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
                         </a>
                     ))}
 
@@ -94,7 +95,7 @@ const Navbar = () => {
                                 {item}
                             </a>
                         ))}
-                        <button className="bg-blue-600 text-white w-full py-4 rounded-lg font-bold font-sans shadow-lg">
+                        <button className="bg-emerald-700 text-white w-full py-4 rounded-lg font-bold font-sans shadow-lg">
                             Donate Now
                         </button>
                     </div>
