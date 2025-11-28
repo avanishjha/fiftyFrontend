@@ -24,17 +24,25 @@ function App() {
       </AnimatePresence>
 
       <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white font-sans selection:bg-blue-500 selection:text-white transition-colors duration-500">
-        {!isLoading && <Navbar />}
-        <main>
-          <Hero />
-          <Marquee />
-          <About />
-          <ImageGallery />
-          <Stats />
-          <Programs />
-          <Contact />
-        </main>
-        <Footer />
+        {!isLoading && (
+          <div className="zoom-[0.8]">
+            <div className="pointer-events-auto">
+              <Navbar />
+            </div>
+          </div>
+        )}
+        <div className="zoom-[0.8]">
+          <main>
+            <Hero />
+            <Marquee />
+            <About />
+            <ImageGallery />
+            <Stats />
+            <Programs />
+            <Contact />
+          </main>
+          <Footer />
+        </div>
       </div>
     </ThemeProvider>
   );
