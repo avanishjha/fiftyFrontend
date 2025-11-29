@@ -56,9 +56,9 @@ const About = () => {
 
                         <div className="grid grid-cols-2 gap-6">
                             {[
-                                { label: "Founded by", value: "Doctors" },
+                                { label: "Founded by", value: "Dr. Bharat Sahran" },
                                 { label: "Guided by", value: "Teachers" },
-                                { label: "Vision", value: "Dr. Kalam" },
+                                { label: "Vision", value: "Dr. APJ Abdul Kalam" },
                                 { label: "Goal", value: "Service" }
                             ].map((item, index) => (
                                 <div key={index} className="border-l-4 border-emerald-500 pl-4">

@@ -19,8 +19,8 @@ const ParallaxSection = ({
     return (
         <section
             ref={ref}
-            className="relative overflow-hidden flex items-center justify-center bg-black"
-            style={{ height }}
+            className={`relative overflow-hidden flex items-center justify-center bg-black ${height === "100vh" ? "min-h-screen" : ""}`}
+            style={{ minHeight: height === "100vh" ? undefined : height }}
         >
             <motion.div
                 style={{ y }}
